@@ -1,4 +1,6 @@
-s3://bigdata-on-youtube-raw-apsouth1-krd-dev/youtube/raw-stats/region=ca/
+# paths
+# s3://bigdata-on-youtube-raw-apsouth1-krd-dev/youtube/raw-stats/region=ca/
+# s3://bigdata-on-youtube-raw-apsouth1-krd-dev/youtube/raw-stats-ref-data/
 
 # coping data to s3 bucket
 aws s3 cp .\CAvideos.csv s3://bigdata-on-youtube-raw-apsouth1-krd-dev/youtube/raw-stats/region=ca/
