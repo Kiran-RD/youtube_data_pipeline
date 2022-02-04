@@ -13,4 +13,16 @@ aws s3 cp .\RUvideos.csv s3://bigdata-on-youtube-raw-apsouth1-krd-dev/youtube/ra
 aws s3 cp .\USvideos.csv s3://bigdata-on-youtube-raw-apsouth1-krd-dev/youtube/raw-stats/region=us/
 
 
- 
+aws s3 cp .\CA_category_id.json s3://bigdata-on-youtube-raw-apsouth1-krd-dev/youtube/raw-stats-ref-data/
+aws s3 cp .\DE_category_id.json s3://bigdata-on-youtube-raw-apsouth1-krd-dev/youtube/raw-stats-ref-data/
+aws s3 cp .\FR_category_id.json s3://bigdata-on-youtube-raw-apsouth1-krd-dev/youtube/raw-stats-ref-data/
+aws s3 cp .\GB_category_id.json s3://bigdata-on-youtube-raw-apsouth1-krd-dev/youtube/raw-stats-ref-data/
+aws s3 cp .\IN_category_id.json s3://bigdata-on-youtube-raw-apsouth1-krd-dev/youtube/raw-stats-ref-data/
+aws s3 cp .\JP_category_id.json s3://bigdata-on-youtube-raw-apsouth1-krd-dev/youtube/raw-stats-ref-data/
+aws s3 cp .\KR_category_id.json s3://bigdata-on-youtube-raw-apsouth1-krd-dev/youtube/raw-stats-ref-data/
+aws s3 cp .\MX_category_id.json s3://bigdata-on-youtube-raw-apsouth1-krd-dev/youtube/raw-stats-ref-data/
+aws s3 cp .\RU_category_id.json s3://bigdata-on-youtube-raw-apsouth1-krd-dev/youtube/raw-stats-ref-data/
+aws s3 cp .\US_category_id.json s3://bigdata-on-youtube-raw-apsouth1-krd-dev/youtube/raw-stats-ref-data/
+
+
+
