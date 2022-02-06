@@ -1,0 +1,26 @@
+# s3
+s3://bigdata-on-youtube-raw-apsouth1-krd-dev
+s3://bigdata-on-youtube-cleansed-apsouth1-krd-dev
+s3://bigdata-on-youtube-assets-apsouth1-krd-dev
+
+# roles
+bigdata-on-youtube-glue-service-policy-01
+bigdata-on-youtube-glue-service-role-01
+
+# glue
+bigdata-on-youtube-glue-crawler-01
+bigdata-on-youtube-glue-raw-stats-crawler-01
+    # glue jobs
+    bigdata-on-youtube-glue-raw-stats-crawler-01
+
+# db
+db-youtube-raw
+
+# Lambda function
+bigdata-on-youtube-process-json-to-parquet-lambda-fn
+
+    OS Vars:
+        s3_cleansed_layer = 's3://bigdata-on-youtube-cleansed-apsouth1-krd-dev/youtube/cleansed-stats-ref-data/'
+        glue_catalog_db_name = 'db-youtube-cleansed'
+        glue_catalog_table_name = 'cleansed-stats-ref-data'
+        write_data_operation = 'append'
