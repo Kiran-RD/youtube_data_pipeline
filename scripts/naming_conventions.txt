@@ -3,6 +3,10 @@ s3://bigdata-on-youtube-raw-apsouth1-krd-dev
 s3://bigdata-on-youtube-cleansed-apsouth1-krd-dev
 s3://bigdata-on-youtube-assets-apsouth1-krd-dev
 
+s3://bigdata-on-youtube-raw-apsouth1-krd-dev/youtube/raw-stats-ref-data/CA_category_id.json
+s3://bigdata-on-youtube-assets-apsouth1-krd-dev/awswrangler-pandas-docker.zip
+
+
 # roles
 bigdata-on-youtube-glue-service-policy-01
 bigdata-on-youtube-glue-service-role-01
@@ -24,3 +28,5 @@ bigdata-on-youtube-process-json-to-parquet-lambda-fn
         glue_catalog_db_name = 'db-youtube-cleansed'
         glue_catalog_table_name = 'cleansed-stats-ref-data'
         write_data_operation = 'append'
+
+

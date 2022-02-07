@@ -4,10 +4,10 @@ import urllib.parse as parse
 import os
 
 # Temporary hardcoded AWS Settings i.e to be set as os variable in Lambda
-os_input_s3_cleansed_layer = os.environ('s3_cleansed_layer')
-os_input_glue_catalog_db_name = os.environ('glue_catalog_db_name')
-os_input_glue_catalog_table_name = os.environ('glue_catalog_table_name')
-os_input_write_data_operation = os.environ('write_data_operation')
+os_input_s3_cleansed_layer = os.environ['s3_cleansed_layer']
+os_input_glue_catalog_db_name = os.environ['glue_catalog_db_name']
+os_input_glue_catalog_table_name = os.environ['glue_catalog_table_name']
+os_input_write_data_operation = os.environ['write_data_operation']
 
 def lambda_handler(event, context):
     # Get the object from the Event and show its content type
