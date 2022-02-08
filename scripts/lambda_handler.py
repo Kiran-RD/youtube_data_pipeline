@@ -20,6 +20,7 @@ def lambda_handler(event, context):
         
         # Extract required columns
         df_step_1 = pd.json_normalize(df_raw['items'])
+        df_step_1['id'] = pd.to_numeric(df_step_1['id'])
         
         # Write to S3 in parquet
         wr_response = wr.s3.to_parquet(
