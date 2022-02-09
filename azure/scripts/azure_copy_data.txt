@@ -1,0 +1,23 @@
+azcopy login --tenant-id <tenant-id>
+azcopy copy .\*.json https://youtubedatasa.blob.core.windows.net/raw-data/categories_data/
+azcopy copy .\*.csv https://youtubedatasa.blob.core.windows.net/raw-data/videos_data/
+
+
+azcopy copy .\CAvideos.csv https://youtubedatasa.blob.core.windows.net/raw-data/videos_data/region=ca/
+azcopy copy .\DEvideos.csv https://youtubedatasa.blob.core.windows.net/raw-data/videos_data/region=de/
+
+azcopy copy .\FRvideos.csv https://youtubedatasa.blob.core.windows.net/raw-data/videos_data/region=fr/
+
+azcopy copy .\GBvideos.csv https://youtubedatasa.blob.core.windows.net/raw-data/videos_data/region=gb/
+
+azcopy copy .\INvideos.csv https://youtubedatasa.blob.core.windows.net/raw-data/videos_data/region=in/
+
+azcopy copy .\JPvideos.csv https://youtubedatasa.blob.core.windows.net/raw-data/videos_data/region=jp/
+
+azcopy copy .\KRvideos.csv https://youtubedatasa.blob.core.windows.net/raw-data/videos_data/region=kr/
+
+azcopy copy .\MXvideos.csv https://youtubedatasa.blob.core.windows.net/raw-data/videos_data/region=mx/
+
+azcopy copy .\RUvideos.csv https://youtubedatasa.blob.core.windows.net/raw-data/videos_data/region=ru/
+
+azcopy copy .\USvideos.csv https://youtubedatasa.blob.core.windows.net/raw-data/videos_data/region=us/
